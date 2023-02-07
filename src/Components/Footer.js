@@ -13,7 +13,7 @@ const Footer = () => {
           spacing={4}
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}>
-          <Text>© 2022 Mohamed Safouen Ennaguez. All rights reserved</Text>
+          <Text>© 2023 Ade Topan Prayoga. All rights reserved</Text>
           <HStack spacing={6}>
             {socials.map((social, index) => {
               return (

@@ -77,7 +77,7 @@ const [input, setInput] = useState({
               color="#151f3b"
               _hover={{ border: "2px solid #151f3b" }}
               leftIcon={<HiPhone color="#151f3b" size="2em" />}>
-              +216 55 339 338
+              +62 813 9989 9392
             </Button>
             <Button
               size="md"
@@ -87,7 +87,7 @@ const [input, setInput] = useState({
               color="#151f3b"
               _hover={{ border: "2px solid #151f3b" }}
               leftIcon={<HiOutlineMail color="#151f3b" size="2em" />}>
-              mohamedsafouen@gmail.com
+              yogayoga553@gmail.com
             </Button>
             <Button
               size="md"
@@ -97,7 +97,7 @@ const [input, setInput] = useState({
               color="#151f3b"
               _hover={{ border: "2px solid #151f3b" }}
               leftIcon={<HiLocationMarker color="#151f3b" size="2em" />}>
-              Sousse, Tunisia
+              Jakarta, Indonesia
             </Button>
           </Box>
           <Box margin="" rounded="md" w="100%">

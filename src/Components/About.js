@@ -4,13 +4,12 @@ import { SocialIcon } from "react-social-icons";
 import photo from "./../images/avatar.jpg";
 import ProgressBar from "./../Hooks/progress";
 import "./../App.css";
-import file from "./../files/Mohamed's Resume.pdf";
+import file from "./../files/Ade Topan Prayoga.pdf";
 
 export const socials = [
-  { url: "https://www.linkedin.com/in/med-safouen/" },
-  { url: "https://twitter.com/mohamed_safouen" },
-  { url: "https://github.com/mohamed-safouen" },
-  { url: "https://stackoverflow.com/users/19407251/mohamed-safouen-naguez" },
+  { url: "https://www.instagram.com/yo.gss/" },
+  { url: "https://www.facebook.com/M.O.J.2014/" },
+  { url: "https://api.whatsapp.com/send?phone=6281399899392" },
 ];
  const Skills = [
    { name: "HTML", value: 90 },
@@ -80,28 +79,31 @@ const About = () => {
             Hi I'm
           </Heading>
           <Heading as={"h4"} size="lg" fontWeight="400" color={"#151f3b"}>
-            Mohamed Safouen Naguez
+            Ade Topan Prayoga
           </Heading>
           <Heading height={"1rem"} as="h4" size="2rem" color={"#676767"}>
             {type}
           </Heading>
           <Text fontSize={"0.9rem"}>
-            Professionally connected with the web development industry and
-            information technology for many years.Well-organised person, problem
-            solver, independent employee with high attention to details
+            Nama saya Ade Topan Prayoga,saya menempuh pendidikan di SMK 3 Perguruan Cikini
+            2018 dengan program studi jurusan Teknik Komputer & Jaringan, saya sedang
+            menempuh pendidikan Strata 1 dengan Jurusan Infomatika untuk memperdalam ilmu
+            yang telah di dapat. Saya merupakan pribadi yang jujur, teliti dalam bekerja,
+            bertanggung jawab, mudah bersosialisasi, menghargai waktu, dan bertanggung jawab.
+            Saya senang mempelajari hal-hal baru dan mendengarkan petunjuk hal baru yang harus dikerjakan.
           </Text>
           <Text fontSize={"0.99rem"}>
-            <strong>Email: </strong>mohamedsafouen@gmail.com
+            <strong>Email: </strong>yogayoga553@gmail.com
           </Text>
           <Text fontSize={"0.99rem"}>
-            <strong>Phone: </strong>+21655339338
+            <strong>Phone: </strong>0813 9989 9392
           </Text>
           <Text fontSize={"0.99rem"}>
-            <strong>Experience: </strong> +2 Years
+            <strong>Experience: </strong> +4 Years IT Support
           </Text>
           <Link
             href={file}
-            download={"MohamedSafouen2022.pdf"}
+            download={"Ade Topan Prayoga.pdf"}
             style={{ textDecoration: "none", margin: "1.7rem 0" }}>
             <Button
               isLoading={isLoading}
@@ -115,7 +117,7 @@ const About = () => {
                 color: "#151f3b",
                 border: "2px solid #151f3b",
               }}>
-              Downoald CV
+              Download CV
             </Button>
           </Link>
           <HStack spacing={5}>

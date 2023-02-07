@@ -14,30 +14,10 @@ import Resto from "./../images/photo5.png";
 import { useEffect } from "react";
 const Project = [
   {
-    Title: "Tic-Tac-Toe",
-    image: tic,
-    description: "Code the Game Tic-Tac-Toe with Javascript native /HTML/CSS",
-    link: "https://mohamed-safouen.github.io/Tic-Tac-Toe/",
-  },
-  {
-    Title: "Weather",
-    image: Weather,
-    description:
-      "Weather App Using HTML/CSS/JS Using API from openweathermap.org ",
-    link: "https://mohamed-safouen.github.io/Weather/",
-  },
-  {
-    Title: "RentCar",
-    image: Rent,
-    description:
-      "Rent Car Dashboard with JS/HTML/CSS with Bootstrap and Jquery Library",
-    link: "https://dash-rent-hoo0azytn-rent-car-tn.vercel.app/",
-  },
-  {
-    Title: "Little Lemon Restaurant",
+    Title: "Yoga Restaurant",
     image: Resto,
-    description: "Final project for Meta Front-End Developer",
-    link: "https://mohamed-safouen.github.io/Little-Limon-Restaurant/",
+    description: "Firt Time Project",
+    link: "http://restocc.byethost8.com/",
   },
 ];
 const Projects = () => {
